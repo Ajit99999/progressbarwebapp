@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#progress-bar {
+  width: 400px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+#inner-bar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  }
